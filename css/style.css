@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.d1{
+    background: url(../image/drop.jpg) no-repeat center center;
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    
+}
+
+.login{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+    right: 0;
+    margin: 0;
+    background: #fff;
+    height: 100%;
+    z-index: 1;
+}
+
+.register{
+    position: fixed;
+    max-width: 500px;
+    right: 0;
+    margin: auto 0;
+    background: #fff;
+}
+
+.login form{
+    margin: 160px 30px;
+}
+
+.login h2{
+    font-size: 30px;
+    color: #b15a8d;
+}
+
+.login label{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 8px 0;
+    color: rgb(102, 96, 100);
+}
+
+.txtb{
+    width: 100%;
+    padding: 8px 0;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.check{
+    margin: 8px 0;
+}
+
+.btn{
+    display: block;
+    float: right;
+    background: #853b66;
+    font-size: 18px;
+    padding: 8px 50px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn2{
+    display: block;
+    float: right;
+    background: #853b66;
+    font-size: 18px;
+    padding: 8px 50px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: rgba(107, 40, 74, 0.7);
+    color: #464343;
+    transition: 0.4s;
+}
+
+.btn2:hover{
+    background-color: rgba(107, 40, 74, 0.7);
+    color: #464343;
+    transition: 0.4s;
+}
